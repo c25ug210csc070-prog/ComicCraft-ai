@@ -1,0 +1,7 @@
+# Optional: only install this if you want Stable Diffusion to run locally.
+# Requires a compatible PyTorch installation and substantial disk/RAM/VRAM.
+torch>=2.6
+transformers>=4.55
+accelerate>=1.10
+diffusers>=0.35
+safetensors>=0.6
