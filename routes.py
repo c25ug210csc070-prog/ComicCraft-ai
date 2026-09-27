@@ -3,8 +3,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from config import get_settings
 from schemas import PromptRequest
-from services.workflow import generate_comic
-from services.image_generator import generate_image
+from app.services.workflow import generate_comic
+from app.services.image_generator import generate_image
 
 router = APIRouter()
 settings = get_settings()
