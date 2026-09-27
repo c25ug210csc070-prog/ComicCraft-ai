@@ -1,0 +1,2 @@
+# ComicCraft-ai
+ComicCraft ai
