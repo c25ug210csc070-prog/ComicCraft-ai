@@ -1,8 +1,8 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from .config import get_settings
-from .routes import router
+from config import get_settings
+from routes import router
 
 settings = get_settings()
 
